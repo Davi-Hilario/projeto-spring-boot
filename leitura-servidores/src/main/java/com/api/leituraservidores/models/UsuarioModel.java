@@ -27,7 +27,7 @@ public class UsuarioModel implements Serializable {
     @Column(nullable = false, length = 2)
     private String setor;
 
-    @Column(length = 20)
+    @Column(nullable = false)
     private LocalDate dataNasc;
 
     @Column(nullable = false, length = 120, unique = true)
